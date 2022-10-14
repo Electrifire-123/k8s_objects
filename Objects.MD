@@ -42,7 +42,7 @@
 2] Commands which are listed to operate on Replica set\
 https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/\
 
-##Deployment
+## Deployment
 1] A Deployment provides declarative updates for Pods and ReplicaSets.\
 2] We can create a deployment by using following command , kubectl apply -f https://k8s.io/examples/controllers/nginx-deployment.yaml\
 3] To check if the deployed or not , use the below command kubectl get deployments\
