@@ -15,18 +15,18 @@
 
 ## NameSpace:
 1]  Namespace is like a package name, Logical partionaning of the kubernities cluster is said to be Namespace.\
-2] Namespaces are a way to organize clusters into virtual sub-clusters/
+2] Namespaces are a way to organize clusters into virtual sub-clusters\
 3] Any resource that exists within Kubernetes exists either in the default namespace or a namespace that is created by the cluster operator\
 4] Namespaces provide a scope for names. Names of resources need to be unique within a namespace, but not across namespaces.\
 5] Namespaces cannot be nested inside one another and each Kubernetes resource can only be in one namespace.\
 6] To create namespace ,  my-namespace.yaml
-7] To Run namespace - kubectl create -f ./my-namespace.yaml
+7] To Run namespace - kubectl create -f ./my-namespace.yaml .\
 
 8] To list the namespace in Cluster we should use below command \
          kubectl get namespaces
 9] To delete Namespace - kubectl delete namespaces <insert-some-namespace-name>\
 
-10] Attaching the link for my reference - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+10] Attaching the link for my reference - https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces
 
 ## PODS
 1] Pods are the smallest deployable units of computing that you can create and manage in Kubernetes.\
@@ -34,7 +34,7 @@
 3] A Pod is similar to a set of containers with shared namespaces and shared filesystem volumes\
 4] To Create a POD , kubectl apply -f https://k8s.io/examples/pods/simple-pod.yaml\
 
-5] Link for reference - https://kubernetes.io/docs/concepts/workloads/pods/
+5] Link for reference - https://kubernetes.io/docs/concepts/workloads/pods/ 
 
 ## Replica Set
 1] A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time.\
